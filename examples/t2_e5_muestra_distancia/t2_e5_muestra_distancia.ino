@@ -89,7 +89,7 @@ void loop() {
     digitalWrite(O1, HIGH);
     digitalWrite(O2, LOW);
   }
-  if (distancia < 500) {
+  if (distancia > 500) {
     digitalWrite(O0, LOW);
     digitalWrite(O1, LOW);
     digitalWrite(O2, HIGH);
