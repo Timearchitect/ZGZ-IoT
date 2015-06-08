@@ -1,0 +1,64 @@
+#######################################
+# Syntax Coloring Map ZGZ IoT
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ZGZ_IoT	KEYWORD1
+Melody	KEYWORD1
+Button	KEYWORD1
+LDR	KEYWORD1
+TiltSwitch	KEYWORD1
+PiezoKnockSensor	KEYWORD1
+Player	KEYWORD1
+Knob KEYWORD1
+Joystick	KEYWORD1
+UltrasonicSensor	KEYWORD1
+Knob	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+config	KEYWORD2
+begin	KEYWORD2
+test	KEYWORD2
+getValue	KEYWORD2
+pressed	KEYWORD2
+released	KEYWORD2
+doublePressed	KEYWORD2
+getState	KEYWORD2
+
+### Melody ###
+play	KEYWORD2
+beep	KEYWORD2
+playTone	KEYWORD2
+effect_win	KEYWORD2
+effect_gameover	KEYWORD2
+effect_score	KEYWORD2
+
+### Button ###
+pressed	KEYWORD2
+released	KEYWORD2
+doublePressed	KEYWORD2
+getState	KEYWORD2
+
+### PiezoKnockSensor ###
+knocked	KEYWORD2
+
+### Knob ###
+setLevels	KEYWORD2
+getLevel	KEYWORD2
+
+### Joystick ###
+getX	KEYWORD2
+getY	KEYWORD2
+
+### UltrasonicSensor ###
+getDistance	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
