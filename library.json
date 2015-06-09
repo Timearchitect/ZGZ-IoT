@@ -1,7 +1,7 @@
 {
 "name": "ZGZ_IoT",
 "frameworks": "Arduino",
-"keywords": "CTC, Education, SummerCamp",
+"keywords": "CTC,ZGZ,Iot, Education, SummerCamp",
 "description": "Simple library for connected projects",
 "url": "http://zgz.verkstad.cc",
 "downloadUrl": "https://github.com/arduinoverkstad/ZGZ-IoT",

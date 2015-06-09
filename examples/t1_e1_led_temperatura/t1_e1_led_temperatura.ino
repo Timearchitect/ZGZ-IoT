@@ -59,11 +59,14 @@ void loop() {
     char c = client.read();
     temperatura = temperatura * 10 + int(c) - 48;
   }
+  // Quitamos los decimales de la temperatura
+  if(temperatura >99)temperatura*=0.01; 
+  
   Serial.flush();
 
   Serial.print("Temperatura: ");  
   Serial.println(temperatura);
-  
+    
   if( temperatura > 25 ) 
     digitalWrite(O0, HIGH);
   else
