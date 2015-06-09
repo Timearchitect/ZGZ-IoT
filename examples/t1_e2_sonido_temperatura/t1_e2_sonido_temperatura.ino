@@ -33,15 +33,15 @@ int temperatura = 0;
 
 void setup() {
   // configura el pin del LED
-  pinMode(O0, OUTPUT);
+  //pinMode(O0, OUTPUT);
   
   // configura el pin del PIEZO
   pinMode(O3, OUTPUT);
 
   // apaga el led y enciendelo cuando este todo listo
-  digitalWrite(O0, LOW);
+ // digitalWrite(O0, LOW);
   Bridge.begin();
-  digitalWrite(O0, HIGH);
+  //digitalWrite(O0, HIGH);
 
   // configura el puerto serie
   Serial.begin(9600);
@@ -62,6 +62,9 @@ void loop() {
     char c = client.read();
     temperatura = temperatura * 10 + int(c) - 48;
   }
+    // Quitamos los decimales de la temperatura
+  if(temperatura >99)temperatura*=0.01; 
+  
   Serial.flush();
 
   Serial.print("Temperatura: ");  

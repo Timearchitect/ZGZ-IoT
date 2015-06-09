@@ -41,15 +41,15 @@ String mensaje = "Nada no pasa nada!";
 
 void setup() {
   // configura el pin del LED
-  pinMode(O0, OUTPUT);
+ //pinMode(O0, OUTPUT);
 
   // configura el pin del BOTON
   pinMode(I0, OUTPUT);
 
   // apaga el led y enciendelo cuando este todo listo
-  digitalWrite(O0, LOW);
+  //digitalWrite(O0, LOW);
   Bridge.begin();
-  digitalWrite(O0, HIGH);
+ // digitalWrite(O0, HIGH);
 
   // configura el puerto serie
   Serial.begin(9600);
