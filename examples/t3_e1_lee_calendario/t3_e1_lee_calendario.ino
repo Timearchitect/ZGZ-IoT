@@ -9,7 +9,7 @@
  *
  * http://verkstad.cc/iot/zgz/code/get_date.php
  * 
- * Conecta un LED en el conector O0 y un servo en O5.
+ * Conecta un LED en el conector O0 y un servo en O4.
  *
  * (c) 2015 D. Cuartielles para Arduino Verkstad
  *
